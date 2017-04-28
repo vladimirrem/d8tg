@@ -1058,6 +1058,8 @@
 }
 
 .my-menu ul {
+  -webkit-transition: 0s;
+  transition: 0s;
   display: block;
   padding: 0;
 }
@@ -1606,6 +1608,8 @@
 }
 
 .top-nav #block-the-search input.form-search {
+  -webkit-transition: 0s;
+  transition: 0s;
   border: 2px solid #2ecc71;
   border-radius: 10px;
   padding: 5px 10px;
