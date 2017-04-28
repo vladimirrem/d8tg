@@ -28,13 +28,23 @@
         });
         return false;
       });
+      $('#block-top a').click(function(e) {
+        e.preventDefault();
+        $(document).off("scroll");
+        $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top - 80
+        }, 1500, 'swing', function () {
+          $(document).on("scroll", onScroll);
+        });
+        return false;
+      });
       function onScroll() {
         var $menu = $('.top-nav .my-menu');
         var scrollPos = $(document).scrollTop();
         $('a', $menu).each(function () {
           var currLink = $(this);
           var refElement = $(currLink.attr("href"));
-          if (refElement.position().top - 80 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+          if (refElement.position().top - 100 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('a', $menu).removeClass("active");
             currLink.addClass("active");
           }

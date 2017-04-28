@@ -17,9 +17,9 @@ options:
     asNavFor: ''
     accessibility: true
     adaptiveHeight: false
-    autoplay: false
+    autoplay: true
     autoplaySpeed: 3000
-    pauseOnHover: true
+    pauseOnHover: false
     pauseOnDotsHover: false
     arrows: false
     prevArrow: '<button type="button" data-role="none" class="slick-prev" aria-label="Previous" tabindex="0" role="button">Previous</button>'

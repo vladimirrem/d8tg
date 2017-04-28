@@ -261,6 +261,7 @@
         &:nth-of-type(2) {
           left: 0;
         }
+        cursor: default;
         padding: 35% 5% 0;
         min-width: 50%;
         opacity: 0;
@@ -285,6 +286,9 @@
             margin: 5% 0 3%;
           }
           a {
+            &:hover {
+              cursor: pointer;
+            }
             text-transform: none;
             font-size: 20px;
             color: #fff;
@@ -387,6 +391,7 @@
 }
 
 .comments {
+  cursor: pointer;
   background-color: $comgrey;
   .slick-track {
     text-align: center;
@@ -417,6 +422,10 @@
         color: $comtext;
         margin-bottom: 30px;
         text-align: left;
+        user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        -webkit-user-select: text;
       }
       .com-name {
         font-size: 30px;
@@ -458,6 +467,7 @@
   }
   .slick-slide {
     min-width: 50%;
+    outline: none;
   }
   .slick-slide > div {
     margin: 5%;
@@ -625,6 +635,10 @@
         font-weight: 700;
         color: $grey;
         line-height: 25px;
+        user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+        -webkit-user-select: text;
 
       }
       .price-link {
@@ -633,6 +647,7 @@
         background: $green;
         margin: 35px auto;
         a {
+          outline: none;
           color: #fff;
           display: block;
           padding: 17px;

@@ -81,7 +81,7 @@ options:
           draggable: false
           fade: false
           focusOnSelect: false
-          infinite: false
+          infinite: true
           initialSlide: 0
           respondTo: window
           rows: 1
