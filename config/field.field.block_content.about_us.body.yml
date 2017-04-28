@@ -1,0 +1,22 @@
+uuid: 990b96fa-46bd-4b50-bb4f-fe83e27d13e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.about_us.body
+field_name: body
+entity_type: block_content
+bundle: about_us
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

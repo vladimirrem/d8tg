@@ -1,0 +1,22 @@
+uuid: 9da55b16-b20d-4b1c-8919-0a882889bfff
+langcode: en
+status: true
+dependencies:
+  module:
+    - webform
+  theme:
+    - the
+id: webform
+theme: the
+region: footer
+weight: -15
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Keep in touch'
+  provider: webform
+  label_display: visible
+  webform_id: subscribe
+  default_data: ''
+visibility: {  }

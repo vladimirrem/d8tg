@@ -1,0 +1,28 @@
+uuid: dbac7342-9b99-403b-ad91-731b54b09492
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.logos
+  module:
+    - block_class
+    - views
+  theme:
+    - the
+third_party_settings:
+  block_class:
+    classes: logo-block
+id: views_block__logos_block_1
+theme: the
+region: logos
+weight: 0
+provider: null
+plugin: 'views_block:logos-block_1'
+settings:
+  id: 'views_block:logos-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

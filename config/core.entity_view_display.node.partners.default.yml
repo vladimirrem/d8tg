@@ -1,0 +1,25 @@
+uuid: 0c6cfb3b-4ad1-4640-9116-071e79ae0c40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.partners.field_image
+    - node.type.partners
+  module:
+    - image
+    - user
+id: node.partners.default
+targetEntityType: node
+bundle: partners
+mode: default
+content:
+  field_image:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  links: true

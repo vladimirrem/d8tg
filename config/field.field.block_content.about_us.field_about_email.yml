@@ -1,0 +1,21 @@
+uuid: c3294df9-7963-41cb-bef9-6718762e2986
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_about_email
+id: block_content.about_us.field_about_email
+field_name: field_about_email
+entity_type: block_content
+bundle: about_us
+label: 'about email'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: example@mail.com
+default_value_callback: ''
+settings: {  }
+field_type: email

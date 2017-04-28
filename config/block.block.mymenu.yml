@@ -1,0 +1,24 @@
+uuid: a07350d5-dae3-410b-bc7f-777286fd8e7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.my-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: mymenu
+theme: bartik
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:my-menu'
+settings:
+  id: 'system_menu_block:my-menu'
+  label: 'My Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

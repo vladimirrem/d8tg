@@ -1,0 +1,59 @@
+@import "../mixins/breakpoints";
+@include tablet {
+  #block-the-branding a {
+
+  }
+  .my-menu ul li {
+    padding: 5px 5px;
+  }
+  .slider .text-wrapper {
+    padding-top: 13%;
+  }
+  .about {
+    .views-field-field-about-text {
+      font-size: 16px;
+    }
+  }
+  .categories-block {
+    margin-top: 20px;
+  }
+
+  .footer-stuff {
+    padding: 30px 50px;
+    & > div {
+      padding: 0;
+      & > div {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 0;
+      }
+    }
+    .cont-block > div {
+      margin: 10px auto;
+    }
+    #block-aboutus {
+      width: 40%;
+    }
+    #block-webform {
+      float: right;
+      width: 40%;
+    }
+    #block-soclinksblock {
+      float: right;
+      clear: right;
+      width: 40%;
+    }
+    #block-views-block-our-news-block-2 {
+      float: right;
+      width: 40%;
+      margin-top: 0;
+    }
+    #block-views-block-portfolio-block-2 {
+      width: 40%;
+      margin-top: 0;
+    }
+    #block-top {
+      margin: -52px auto 0;
+    }
+  }
+}

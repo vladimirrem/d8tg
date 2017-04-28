@@ -1,0 +1,21 @@
+uuid: f3af637e-a573-4a34-993a-6a85fa50c5cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comm_prof
+    - node.type.comments
+  module:
+    - text
+id: node.comments.field_comm_prof
+field_name: field_comm_prof
+entity_type: node
+bundle: comments
+label: 'comm prof'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

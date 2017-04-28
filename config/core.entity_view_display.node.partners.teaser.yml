@@ -1,0 +1,19 @@
+uuid: 0e33e57f-2bff-4cc1-81ed-5c2eca545e08
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.partners.field_image
+    - node.type.partners
+  module:
+    - user
+id: node.partners.teaser
+targetEntityType: node
+bundle: partners
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_image: true

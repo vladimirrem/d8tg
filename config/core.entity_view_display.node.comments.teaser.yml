@@ -1,0 +1,26 @@
+uuid: 6291d066-c66c-45ae-b266-456e2029c247
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.comments.body
+    - node.type.comments
+  module:
+    - text
+    - user
+id: node.comments.teaser
+targetEntityType: node
+bundle: comments
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

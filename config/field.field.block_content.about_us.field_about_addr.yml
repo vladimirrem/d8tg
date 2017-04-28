@@ -1,0 +1,24 @@
+uuid: 01d1a3e1-57a7-4f4c-935e-629a8a1a9277
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_about_addr
+  module:
+    - text
+id: block_content.about_us.field_about_addr
+field_name: field_about_addr
+entity_type: block_content
+bundle: about_us
+label: 'about addr'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>Newton Ave, ma</p>\r\n\r\n<p>SomeWhere, NO 12345</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,25 @@
+core: 8.x
+type: theme
+
+name: 'THE theme'
+description: 'My theming version for the dude`s theming task.'
+
+regions:
+  navigation: 'Navigation'
+  slider: 'Slider'
+  about: 'About Us'
+  works: 'Recent works'
+  news: 'Our news'
+  comments: 'Comments'
+  team: 'Our team'
+  logos: 'Logos'
+  pricing: 'Pricing table'
+  content: 'Main content'
+  footer: 'Footer'
+  footermenu: 'Footer menu'
+
+libraries:
+  - 'the/global-styling'
+  - 'the/the-scripts'
+  - 'the/fonts'
+  - 'the/font-awesome'

@@ -1,0 +1,28 @@
+uuid: b0b78e4f-1f04-42a8-84d3-90e6dc2f2975
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.friends
+  module:
+    - block_class
+    - views
+  theme:
+    - the
+third_party_settings:
+  block_class:
+    classes: price-block
+id: views_block__friends_block_1
+theme: the
+region: '-1'
+weight: -8
+provider: null
+plugin: 'views_block:friends-block_1'
+settings:
+  id: 'views_block:friends-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

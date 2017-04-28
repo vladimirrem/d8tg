@@ -1,0 +1,19 @@
+uuid: 9cb7bfbc-db38-4e6b-9c41-b2487a605328
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - user
+id: user.field_user_fb
+field_name: field_user_fb
+entity_type: user
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

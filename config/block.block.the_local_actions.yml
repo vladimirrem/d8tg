@@ -1,0 +1,20 @@
+uuid: 36c9eca4-bfe3-4e28-b459-313e268a86f7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - the
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: the_local_actions
+theme: the
+region: navigation
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

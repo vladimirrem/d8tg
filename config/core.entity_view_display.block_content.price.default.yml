@@ -1,0 +1,60 @@
+uuid: bc48325a-5dbc-4120-bd3f-c08282334206
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.price
+    - field.field.block_content.price.body
+    - field.field.block_content.price.field_price_img
+    - field.field.block_content.price.field_price_purchase
+    - field.field.block_content.price.field_price_val
+  module:
+    - field_formatter_class
+    - image
+    - link
+    - text
+id: block_content.price.default
+targetEntityType: block_content
+bundle: price
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: price-body
+  field_price_img:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: price-img
+    type: image
+  field_price_purchase:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      field_formatter_class:
+        class: price-link
+    type: link
+  field_price_val:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: price-val
+    type: text_default
+hidden: {  }

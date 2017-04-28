@@ -1,0 +1,25 @@
+uuid: fbb62f49-4d77-47ce-bf31-ade5dae8f8f4
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:price:6be74267-77f3-45ad-918f-79a704ca2b30'
+  module:
+    - block_content
+  theme:
+    - the
+id: ultimate
+theme: the
+region: '-1'
+weight: -10
+provider: null
+plugin: 'block_content:6be74267-77f3-45ad-918f-79a704ca2b30'
+settings:
+  id: 'block_content:6be74267-77f3-45ad-918f-79a704ca2b30'
+  label: ULTIMATE
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

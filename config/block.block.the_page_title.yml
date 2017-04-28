@@ -1,0 +1,20 @@
+uuid: eae97ce7-a2ed-4756-b3c4-6f97bd694646
+langcode: en
+status: true
+dependencies:
+  theme:
+    - the
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: the_page_title
+theme: the
+region: navigation
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

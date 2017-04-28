@@ -1,0 +1,28 @@
+uuid: d5fbc74e-0191-40fd-aa48-255b60e49802
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.my-menu
+  module:
+    - block_class
+    - system
+  theme:
+    - the
+third_party_settings:
+  block_class:
+    classes: my-menu
+id: mymenu_2
+theme: the
+region: footermenu
+weight: -14
+provider: null
+plugin: 'system_menu_block:my-menu'
+settings:
+  id: 'system_menu_block:my-menu'
+  label: 'My Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

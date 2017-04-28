@@ -1,0 +1,25 @@
+uuid: a6402fdb-bb60-408a-8149-45202ed426cb
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:price:8ca3475e-0e9e-4ee3-bc6e-bb3b31b74af7'
+  module:
+    - block_content
+  theme:
+    - the
+id: standart
+theme: the
+region: '-1'
+weight: -13
+provider: null
+plugin: 'block_content:8ca3475e-0e9e-4ee3-bc6e-bb3b31b74af7'
+settings:
+  id: 'block_content:8ca3475e-0e9e-4ee3-bc6e-bb3b31b74af7'
+  label: STANDART
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

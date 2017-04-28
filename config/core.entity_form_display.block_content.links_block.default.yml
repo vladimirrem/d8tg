@@ -1,0 +1,29 @@
+uuid: 53cc6593-fc6f-40f4-8144-e994a8310e0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.links_block
+    - field.field.block_content.links_block.field_links
+  module:
+    - link
+id: block_content.links_block.default
+targetEntityType: block_content
+bundle: links_block
+mode: default
+content:
+  field_links:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  info:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

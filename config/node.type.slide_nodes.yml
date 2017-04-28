@@ -1,0 +1,17 @@
+uuid: 2eafcf9b-12ba-4148-80f0-b23e363df604
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Slide nodes'
+type: slide_nodes
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

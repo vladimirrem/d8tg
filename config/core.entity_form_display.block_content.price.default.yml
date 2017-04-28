@@ -1,0 +1,57 @@
+uuid: ac7cc129-26e6-48f8-abb5-d628f44a21e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.price
+    - field.field.block_content.price.body
+    - field.field.block_content.price.field_price_img
+    - field.field.block_content.price.field_price_purchase
+    - field.field.block_content.price.field_price_val
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - text
+id: block_content.price.default
+targetEntityType: block_content
+bundle: price
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_price_img:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_price_purchase:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_price_val:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  info:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

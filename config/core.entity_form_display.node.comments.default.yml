@@ -1,0 +1,76 @@
+uuid: b84d0cf1-5419-44e1-a26f-93163c48c46c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.comments.body
+    - field.field.node.comments.field_comm_name
+    - field.field.node.comments.field_comm_prof
+    - field.field.node.comments.field_image
+    - image.style.thumbnail
+    - node.type.comments
+  module:
+    - image
+    - path
+    - text
+id: node.comments.default
+targetEntityType: node
+bundle: comments
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 5
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_comm_name:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_comm_prof:
+    weight: 7
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  path:
+    type: path
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

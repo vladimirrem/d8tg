@@ -1,0 +1,24 @@
+uuid: d069a992-a6ea-4774-885b-dbd0d4bc2d5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.about_block
+  module:
+    - views
+  theme:
+    - the
+id: views_block__about_block_block_1
+theme: the
+region: about
+weight: 0
+provider: null
+plugin: 'views_block:about_block-block_1'
+settings:
+  id: 'views_block:about_block-block_1'
+  label: 'About us'
+  provider: views
+  label_display: visible
+  views_label: 'About us'
+  items_per_page: none
+visibility: {  }

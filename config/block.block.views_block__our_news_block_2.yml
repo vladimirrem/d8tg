@@ -1,0 +1,24 @@
+uuid: dcf6c0ef-09cc-4336-9f93-1951de8d14f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_news
+  module:
+    - views
+  theme:
+    - the
+id: views_block__our_news_block_2
+theme: the
+region: footer
+weight: -13
+provider: null
+plugin: 'views_block:our_news-block_2'
+settings:
+  id: 'views_block:our_news-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

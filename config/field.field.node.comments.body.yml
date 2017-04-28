@@ -1,0 +1,22 @@
+uuid: 425317bb-f8dc-4741-a2c6-7c636b7a9255
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.comments
+  module:
+    - text
+id: node.comments.body
+field_name: body
+entity_type: node
+bundle: comments
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

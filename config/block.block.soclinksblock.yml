@@ -1,0 +1,25 @@
+uuid: 9c12a63c-b5ed-47ae-ad2e-a5b869af4453
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:links_block:83c4fb7d-c383-4a3c-96e3-9e5b17107eb7'
+  module:
+    - block_content
+  theme:
+    - the
+id: soclinksblock
+theme: the
+region: footer
+weight: -14
+provider: null
+plugin: 'block_content:83c4fb7d-c383-4a3c-96e3-9e5b17107eb7'
+settings:
+  id: 'block_content:83c4fb7d-c383-4a3c-96e3-9e5b17107eb7'
+  label: 'Soc links block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

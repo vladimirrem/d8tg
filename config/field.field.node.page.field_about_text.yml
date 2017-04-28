@@ -1,0 +1,21 @@
+uuid: d25f2338-0861-4ced-be34-4449263d62f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_text
+    - node.type.page
+  module:
+    - text
+id: node.page.field_about_text
+field_name: field_about_text
+entity_type: node
+bundle: page
+label: 'about text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,25 @@
+uuid: 2f0d2527-90e4-420e-9935-f4b2ba737267
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1903b507-1b40-4f84-8237-bd10b5bc8d51'
+  module:
+    - block_content
+  theme:
+    - the
+id: bin
+theme: the
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:1903b507-1b40-4f84-8237-bd10b5bc8d51'
+settings:
+  id: 'block_content:1903b507-1b40-4f84-8237-bd10b5bc8d51'
+  label: Bin
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

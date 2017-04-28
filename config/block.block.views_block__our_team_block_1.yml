@@ -1,0 +1,24 @@
+uuid: fc2bb659-59e0-466a-8927-57dcfbaf9cf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_team
+  module:
+    - views
+  theme:
+    - the
+id: views_block__our_team_block_1
+theme: the
+region: team
+weight: 0
+provider: null
+plugin: 'views_block:our_team-block_1'
+settings:
+  id: 'views_block:our_team-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

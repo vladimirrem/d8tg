@@ -1,0 +1,21 @@
+uuid: 0272bcc8-9eb7-41c4-a6b1-0ca7bc9e4f2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_user_info
+  module:
+    - text
+    - user
+id: user.user.field_user_info
+field_name: field_user_info
+entity_type: user
+bundle: user
+label: 'user info'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

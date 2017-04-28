@@ -1,0 +1,44 @@
+uuid: 1d2e62ef-e512-49e8-a67e-6a634f775a57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portfolio_works.body
+    - field.field.node.portfolio_works.field_categories_term
+    - field.field.node.portfolio_works.field_image
+    - node.type.portfolio_works
+  module:
+    - image
+    - text
+    - user
+id: node.portfolio_works.default
+targetEntityType: node
+bundle: portfolio_works
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_categories_term:
+    weight: 3
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: ce43e15b-7a42-4a22-ab0b-1e58708f1efb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d2684257-128a-4589-b718-ec4039dabbed'
+  module:
+    - block_content
+  theme:
+    - the
+id: copyrightblock
+theme: the
+region: footermenu
+weight: -13
+provider: null
+plugin: 'block_content:d2684257-128a-4589-b718-ec4039dabbed'
+settings:
+  id: 'block_content:d2684257-128a-4589-b718-ec4039dabbed'
+  label: 'Copyright block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

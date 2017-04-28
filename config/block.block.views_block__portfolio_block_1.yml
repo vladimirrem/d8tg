@@ -1,0 +1,28 @@
+uuid: 20987f55-6276-432a-83be-f0279edc6ff5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.portfolio
+  module:
+    - block_class
+    - views
+  theme:
+    - the
+third_party_settings:
+  block_class:
+    classes: works-slider
+id: views_block__portfolio_block_1
+theme: the
+region: works
+weight: 0
+provider: null
+plugin: 'views_block:portfolio-block_1'
+settings:
+  id: 'views_block:portfolio-block_1'
+  label: 'Recent works'
+  provider: views
+  label_display: visible
+  views_label: 'Recent works'
+  items_per_page: none
+visibility: {  }

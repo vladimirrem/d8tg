@@ -1,0 +1,68 @@
+@import "breakpoints";
+
+// Region`s title
+.titlehead {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  background: url("../img/rectangle-1.png") no-repeat;
+  width: 310px;
+  text-align: center;
+  margin: 100px auto 80px;
+  clear: both;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: block;
+  @include mobile {
+    margin: 30px auto;
+    font-size: 30px;
+    background-size: 210px;
+    background-position-x: 50%;
+    padding-top: 25px;
+  }
+}
+
+// Implement social icons
+.soc-icon {
+  font-family: FontAwesome;
+  color: #fff;
+  position: absolute;
+  padding-top: 12px;
+  display: block;
+  width: 100%;
+}
+
+// Change slider dots
+.slider-dots {
+  li {
+    button {
+      opacity: 0;
+    }
+    &:before {
+      content: '';
+      display: block;
+      background-color: #fff;
+      width: 7px;
+      height: 7px;
+    }
+    &.slick-active {
+      &:before {
+        background-color: $green;
+      }
+    }
+  }
+}
+
+// Change slider arrows
+@mixin slider-arrows {
+  margin: 0 5px;
+  &:before {
+    color: #000;
+    font-size: 2.25rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-family: FontAwesome;
+    display: block;
+    padding-left: 5px;
+  }
+}

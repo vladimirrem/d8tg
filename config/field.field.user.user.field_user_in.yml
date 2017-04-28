@@ -1,0 +1,23 @@
+uuid: 395669f8-de8a-40d6-b25a-a6724c37c935
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_user_in
+  module:
+    - link
+    - user
+id: user.user.field_user_in
+field_name: field_user_in
+entity_type: user
+bundle: user
+label: 'user in'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,23 @@
+uuid: e27cbe05-9202-4498-93eb-10f5845bb2b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_user_tw
+  module:
+    - link
+    - user
+id: user.user.field_user_tw
+field_name: field_user_tw
+entity_type: user
+bundle: user
+label: 'user tw'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

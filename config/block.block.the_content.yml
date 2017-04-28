@@ -1,0 +1,27 @@
+uuid: a01d320c-99db-417c-9b10-e9f3e5b69299
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - the
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: the_content
+theme: the
+region: content
+weight: -11
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

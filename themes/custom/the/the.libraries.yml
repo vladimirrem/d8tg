@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+the-scripts:
+  js:
+    js/the.theme.js: {}
+
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Josefin+Sans': { type: external }
+      '//fonts.googleapis.com/css?family=Palanquin+Dark': { type: external }
+
+font-awesome:
+  versin: 4.7.0
+  css:
+    theme:
+      fonts/font-awesome/css/font-awesome.css: {}

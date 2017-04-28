@@ -1,0 +1,8 @@
+uuid: 52f122bc-6c71-4803-97d6-0d0e601a7089
+langcode: en
+status: true
+dependencies: {  }
+id: test
+label: Test
+target_entity_type_id: node
+description: ''

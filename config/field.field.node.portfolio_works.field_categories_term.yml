@@ -1,0 +1,28 @@
+uuid: bcd50d86-ee03-4dd0-8fe8-809fb0a868bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categories_term
+    - node.type.portfolio_works
+    - taxonomy.vocabulary.categories
+id: node.portfolio_works.field_categories_term
+field_name: field_categories_term
+entity_type: node
+bundle: portfolio_works
+label: 'Categories term'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,8 @@
+uuid: 2058a534-fcb5-4615-9290-7080b347ae50
+langcode: en
+status: true
+dependencies: {  }
+id: price
+label: Price
+revision: 0
+description: ''

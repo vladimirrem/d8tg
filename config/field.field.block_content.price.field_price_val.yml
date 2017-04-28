@@ -1,0 +1,21 @@
+uuid: 5fcb869d-01be-4828-8607-f32135c7a302
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.price
+    - field.storage.block_content.field_price_val
+  module:
+    - text
+id: block_content.price.field_price_val
+field_name: field_price_val
+entity_type: block_content
+bundle: price
+label: 'price val'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

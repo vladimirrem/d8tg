@@ -1,0 +1,22 @@
+uuid: 5951717d-b9a8-462b-8de1-1da3e5bdc706
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.portfolio_works
+  module:
+    - text
+id: node.portfolio_works.body
+field_name: body
+entity_type: node
+bundle: portfolio_works
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

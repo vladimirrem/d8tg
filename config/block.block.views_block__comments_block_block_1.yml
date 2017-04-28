@@ -1,0 +1,24 @@
+uuid: a432b19c-0950-4d8e-85ee-920112362fe0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_block
+  module:
+    - views
+  theme:
+    - the
+id: views_block__comments_block_block_1
+theme: the
+region: comments
+weight: 0
+provider: null
+plugin: 'views_block:comments_block-block_1'
+settings:
+  id: 'views_block:comments_block-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: 7812866d-857a-4a63-87f9-bb96c9c7358b
+langcode: en
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.field_user_info
+field_name: field_user_info
+entity_type: user
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

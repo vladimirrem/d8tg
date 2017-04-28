@@ -1,0 +1,14 @@
+uuid: dc2e21de-ceed-4703-a17d-01c5baaf6efa
+langcode: en
+status: true
+dependencies: {  }
+name: comments
+label: comments
+effects:
+  2453f341-5b00-43eb-b50e-54f66814f963:
+    uuid: 2453f341-5b00-43eb-b50e-54f66814f963
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 600

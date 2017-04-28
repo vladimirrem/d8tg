@@ -1,0 +1,27 @@
+// Components styles.
+@import 'components/*';
+
+// Default variables.
+@import "variables";
+
+// Import mixins
+@import 'mixins/*';
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  .site-wide-page,
+  .front-wrapper a {
+    text-decoration: none;
+    &:visited {
+      color: #0000AA;
+    }
+    &:hover {
+      color: $green;
+    }
+  }
+}
+.front-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}

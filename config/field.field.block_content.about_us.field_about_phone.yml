@@ -1,0 +1,23 @@
+uuid: 6fa509f0-3e22-447c-ad91-09a9fd199cc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_about_phone
+  module:
+    - telephone
+id: block_content.about_us.field_about_phone
+field_name: field_about_phone
+entity_type: block_content
+bundle: about_us
+label: 'about phone'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '22 333 44 55'
+default_value_callback: ''
+settings: {  }
+field_type: telephone
