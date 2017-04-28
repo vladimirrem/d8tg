@@ -1,4 +1,5 @@
 .idea
-*/sites/*/settings.local.php
-*/sites/*/default.settings.php
-*/sites/*/files
+sites/*/settings.local.php
+sites/*/default.settings.php
+sites/*/files
+vendor
