@@ -634,6 +634,8 @@
 
 .works .slick-slide > div .slide__caption:hover {
   opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .works .slick-slide > div .slide__caption:nth-of-type(4) {
@@ -1697,6 +1699,8 @@
 * {
   font-family: "Josefin Sans", sans-serif;
   margin: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 * .site-wide-page,

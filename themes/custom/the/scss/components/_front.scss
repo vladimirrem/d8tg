@@ -254,6 +254,7 @@
       .slide__caption {
         &:hover {
           opacity: 1;
+          transition: 0.5s;
         }
         &:nth-of-type(4) {
           left: 50%;
