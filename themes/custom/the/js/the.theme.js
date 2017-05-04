@@ -6,7 +6,7 @@
   Drupal.behaviors.searchInput = {
     attach: function () {
       $('#edit-keys').hide();
-      var $search = $('#edit-submit');
+      var $search = $('#block-the-search #edit-submit');
       $search.click(function (e) {
         e.preventDefault();
         $('#edit-keys').toggle(1000);
